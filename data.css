@@ -1,0 +1,16 @@
+body{
+    background: gray;
+}
+
+input {
+    border-radius: 2px;
+    border:none;
+    outline:none; 
+}
+
+legend {
+    color: pink;
+}
+label {
+    width: 500px;
+}
