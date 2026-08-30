@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+div{
+   
+    height: 200px;
+    width:  400px;
+}
+#first{
+    background: orange;
+    margin: 15px 13px;
+    padding: 22px;
+}
+
+#sec{
+    background: greenyellow;
+    margin: 56px 11px;
+    padding: 45px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYscfUBUbqwGd_DHVhG-ZjCOD7MUpxp4uhNe7toUg4ug&s);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
