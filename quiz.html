@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            background-color: red;
+            color: white;
+            padding: 20px;
+        }
+        #correct{
+            background-color: green;
+            padding: 12px;
+            display: none;
+        }
+        #incorrect{
+            background-color: red;
+            padding: 12px;
+            display:none
+        }
+        #nm:checked ~ #correct{
+            display: block;
+        }
+        #vt:checked ~ #incorrect{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to my Quiz</h1>
+    <form action="">
+        <label for="Her">what is her name ?</label>
+        <input placeholder="Unknown" type="text">
+        <br>
+        <label for="">What's your relation with her ?</label>
+        <input type="text" >
+        <br>
+        <input id="nm" type="radio">
+        <label for="nm" >narendra lodu</label>
+        <br>
+        <input type="radio" id="vt">
+        <label for="vt">Virat Kohli</label>
+    
+    <div id="correct">correct!</div>
+    <div id="incorrect">incorrect try again!</div>
+        
+    </form>
+</body>
+</html>
