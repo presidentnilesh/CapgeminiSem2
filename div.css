@@ -1,0 +1,42 @@
+        #one{
+            background-color: red;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            background-image: url(https://i.pinimg.com/736x/70/ed/fd/70edfdc24e5b9a6b6a541a7362e493d8.jpg);
+            background-size: cover;
+            background-position:  center;
+            
+        }
+        #two{
+            background-color: green;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            top: 120px;
+            left: 120px;
+            /* margin: 62px; */
+            z-index:2;
+            background-image: url(https://i.pinimg.com/736x/c5/6d/54/c56d54335513b6b466adb2ae951ac8af.jpg);
+            background-size: cover;
+            background-position:  center;
+        }
+        #three{
+            background-color: yellow;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            top:60px;
+            left: 60px;
+            /* margin: 120px; */
+            z-index:1;
+            background-image: url(https://i.pinimg.com/736x/b2/f2/c7/b2f2c7127b9321050c4984eb8605dc97.jpg);
+            background-size: cover;
+            background-position:  center;
+        }
+        div:hover{
+            z-index:5;
+            transform: scale(2);
+            height: 1000px;
+            width: 1000px;
+        }
