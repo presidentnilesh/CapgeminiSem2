@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: end;
-    padding-left: 12px;
+    padding-left: 20px;
     padding-right: 20px;
 }
 .sub{
@@ -19,12 +19,21 @@
 
 .middle{
     height: 430px;
-    width: 100%;
+    width: full;
     background-color: rgb(235, 235, 203);
     display: flex;
     align-items: center;
     padding: 50px 120px;
     
+}
+.button{
+    transition: 0.1 ease;
+}
+button:hover {
+    transform: scale(1.05);
+}
+.button:active{
+    transform: scale(0.95);
 }
 .middle button{
     color: white;
@@ -59,6 +68,11 @@ p{
     justify-content: space-between;
 }
 
+.cart{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
 
 .one p{
     margin: 0;
@@ -68,10 +82,18 @@ p{
     width: 380px;
     background: #d7dddf;
     border-radius: 10px;
+    border: 2px solid rgb(205, 220, 219);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+
+    transition: transform 0.3s ease ;
+}
+.one:hover{
+    transform:scale(1.02) ;
+    border-color: rgb(34, 18, 18);
+    
 }
 .one img{
     margin-top: 40px;
@@ -79,4 +101,98 @@ p{
     height: 60px;
     width: 50px;
     object-fit: cover;
+}
+.black{
+    height: 150px;
+    width:  84%;
+    padding-left: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 105px;
+    border-radius: 10px;
+}
+.ka 
+{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.i{
+    margin: 45px;
+    display: flex;
+    flex-direction: row;
+}
+
+.i p {
+    font-size: 16px;
+}
+
+.i b {
+    font-size: 30px;
+    font-weight: 800;
+}
+.coll{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top:80px ;
+}
+.papa{
+    height: 80%;
+    width: 90%;
+    margin-left: 90px;
+}
+.mm{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.price img{
+    height: 200px;
+    width: 240px;
+    object-fit: cover;
+
+}
+
+.price{
+    margin-top: 20px;
+    background: rgb(239, 240, 237);
+    height: 480px;
+    width: 300px;
+    
+    border-radius: 10px;
+
+}
+
+.pagal{
+    margin-left: 40px;
+
+}
+
+.lastNot{
+    background: #dcdbcb;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ll{
+    margin-left: 100px;
+width:600px;
+
+}
+.kl{
+margin-right: 100px;
+border: 20px solid white ;
+border-radius: 10px;
+background-color: white;
+}
+.kl p{
+    text-align: center;
 }
